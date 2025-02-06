@@ -1,0 +1,16 @@
+.container {
+  display: flex; /* Enable Flexbox */
+  justify-content: space-between; /* Align items to left and right */
+  align-items: center; /* Vertically center the items */
+  height: 100%; /* Ensure it takes the full height of the parent */
+  padding: 0 16px; /* Optional: Add horizontal padding */
+  background: darkred;
+  color: white;
+}
+
+html,
+body {
+  margin: 0; /* Removes default margins */
+  padding: 0; /* Removes default padding */
+  width: 100%; /* Ensures full width */
+}
